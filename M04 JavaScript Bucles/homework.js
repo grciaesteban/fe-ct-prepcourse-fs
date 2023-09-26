@@ -90,21 +90,20 @@ function colors(color) {
 function esDiezOCinco(num) {
    // Retornar true si "num" es 10 o 5.
    // De lo contrario, retornar false.
-   // Tu código:
-   if(num===10||num===5){
+   // Tu código:  
+   if(num==10||num==5){
       return true;
-   } else{
+   }else{
       return false;
    }
 }
-
 function estaEnRango(num) {
    // Retornar true si "num" es menor que 50 y mayor que 20.
    // De lo contrario, retornar false.
    // Tu código:
    if(num<50&&num>20){
       return true;
-   } else{
+   }else{
       return false;
    }
 }
@@ -116,9 +115,9 @@ function esEntero(num) {
    // Ejemplo: (-10) ---> true
    // De lo contrario, retorna false.
    // Tu código:
-   if(num%1===0){
+   if(num%1==0){
       return true;
-   } else{
+   }else{
       return false;
    }
 }
@@ -129,13 +128,13 @@ function fizzBuzz(num) {
    // Si "num" es divisible entre 3 y 5 (ambos), retorna "fizzbuzz".
    // De lo contrario, retorna false.
    // Tu código:
-   if(num%3===0&&num%5===0){
+   if(num%3==0&&num%5==0){
       return "fizzbuzz";
-   } else if(num%3===0){
+   }else if(num%3==0){
       return "fizz";
-   } else if(num%5===0){
+   }else if(num%5==0){
       return "buzz";
-   } else {
+   }else{
       return false;
    }
 }
@@ -148,19 +147,20 @@ function operadoresLogicos(num1, num2, num3) {
    // Si todos los argumentos son cero, retornar ---> "Error".
    // Si no se cumple ninguna de las condiciones anteriores, retornar false.
    // Tu código:
-   if(num1===0&&num2===0&&num3===0){
-      return "Error"
+   if(num1==0&&num2==0&&num3==0){
+      return "Error";
    } else if(num1<0||num2<0||num3<0){
-      return "Hay negativos"
+      return "Hay negativos";
    } else if(num1>num2&&num1>num3&&num1>0){
-      return "Numero 1 es mayor y positivo";
-   } else if(num3>num1&&num3>num2){
-      num3++
+      return "Numero 1 es mayor y positivo"
+   }else if(num3>num1&&num3>num2){
+      num3++;
       return num3;
-   } else{
+   }else{
       return false;
    }
 }
+
 
 function esPrimo(num) {
    // Retornar true si "num" es primo.

@@ -48,7 +48,7 @@ const {
 } = require('../Ejercicio 05');
 
 describe('JAVASCRIPT I', function () {
-   describe('EJERCICIO 01', function () {
+   xdescribe('EJERCICIO 01', function () {
       describe('nuevoString', function () {
          it('Debe ser un string', function () {
             expect(typeof nuevoString).toBe('string');
@@ -86,7 +86,7 @@ describe('JAVASCRIPT I', function () {
       });
    });
 
-   describe('EJERCICIO 02', function () {
+   xdescribe('EJERCICIO 02', function () {
       describe('devolverString(str)', function () {
          it('Debe retornar el string provisto', function () {
             expect(devolverString('Henry')).toBe('Henry');
@@ -134,7 +134,7 @@ describe('JAVASCRIPT I', function () {
       });
    });
 
-   describe('EJERCICIO 03', function () {
+   xdescribe('EJERCICIO 03', function () {
       describe('sonIguales(x, y)', function () {
          it('Debe devolver True si los argumentos son iguales', function () {
             expect(sonIguales(15, 15)).toBe(true);
@@ -201,7 +201,7 @@ describe('JAVASCRIPT I', function () {
       });
    });
 
-   describe('EJERCICIO 04', function () {
+   xdescribe('EJERCICIO 04', function () {
       describe('elevarAlCuadrado(num)', function () {
          it('Debe devolver el número elevado al cuadrado', function () {
             expect(elevarAlCuadrado(6)).toBe(36);

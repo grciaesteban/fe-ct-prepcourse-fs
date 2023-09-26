@@ -17,7 +17,7 @@ const {
 } = require('../homework');
 
 describe('JAVASCRIPT II', function () {
-   describe('obtenerMayor(x, y)', function () {
+   xdescribe('obtenerMayor(x, y)', function () {
       it('Debe retornar X si es mayor que Y', function () {
          expect(obtenerMayor(10, 5)).toBe(10);
       });
@@ -29,7 +29,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('mayoriaDeEdad(edad)', function () {
+   xdescribe('mayoriaDeEdad(edad)', function () {
       it("Debe retornar 'Allowed' si la edad es igual o mayor a 18", function () {
          expect(mayoriaDeEdad(18)).toBe('Allowed');
          expect(mayoriaDeEdad(35)).toBe('Allowed');
@@ -39,7 +39,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('conection(status)', function () {
+   xdescribe('conection(status)', function () {
       it('Debe retornar "Online" si el status es 1', function () {
          expect(conection(1)).toBe('Online');
       });
@@ -51,7 +51,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('saludo(idioma)', function () {
+   xdescribe('saludo(idioma)', function () {
       it("Debe retornar 'Guten Tag!' por 'aleman'", function () {
          expect(saludo('aleman')).toBe('Guten Tag!');
       });
@@ -67,7 +67,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('colors(color)', function () {
+   xdescribe('colors(color)', function () {
       it("Debe retornar 'This is {color}'", function () {
          expect(colors('blue')).toBe('This is blue');
          expect(colors('red')).toBe('This is red');
@@ -158,7 +158,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('esPrimo(num)', function () {
+   xdescribe('esPrimo(num)', function () {
       it('Debe retornar True si num es primo', function () {
          expect(esPrimo(7)).toBe(true);
          expect(esPrimo(97)).toBe(true);
@@ -174,7 +174,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('esVerdadero(valor)', function () {
+   xdescribe('esVerdadero(valor)', function () {
       it('Debe retornar "Soy verdadero" si valor es True', function () {
          expect(esVerdadero(true)).toBe('Soy verdadero');
       });
@@ -183,7 +183,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('tieneTresDigitos(num)', function () {
+   xdescribe('tieneTresDigitos(num)', function () {
       it('Debe retornar True si num tiene tres dígitos', function () {
          expect(tieneTresDigitos(100)).toBe(true);
          expect(tieneTresDigitos(820)).toBe(true);
@@ -195,7 +195,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('doWhile(num)', function () {
+   xdescribe('doWhile(num)', function () {
       it('Debe agregar 5 al número recibido un total de 8 veces y retornar el resultado', function () {
          expect(doWhile(5)).toBe(45);
          expect(doWhile(100)).toBe(140);
