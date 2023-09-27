@@ -80,7 +80,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('esDiezOCinco(num)', function () {
+   xdescribe('esDiezOCinco(num)', function () {
       it('Debe retornar True si num es 10 o 5', function () {
          expect(esDiezOCinco(10)).toBe(true);
          expect(esDiezOCinco(5)).toBe(true);
@@ -93,7 +93,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('estaEnRango(num)', function () {
+   xdescribe('estaEnRango(num)', function () {
       it('Debe retornar True si num está en el rango', function () {
          expect(estaEnRango(35.5)).toBe(true);
          expect(estaEnRango(40)).toBe(true);
@@ -108,7 +108,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('esEntero(num)', function () {
+   xdescribe('esEntero(num)', function () {
       it('Debe retornar False si num no es entero', function () {
          expect(esEntero(0.5)).toBe(false);
       });
@@ -123,7 +123,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('fizzBuzz(num)', function () {
+   xdescribe('fizzBuzz(num)', function () {
       it('Debe retornar "fizzbuzz" si num es divisible por 3 y 5', function () {
          expect(fizzBuzz(15)).toBe('fizzbuzz');
       });
@@ -138,7 +138,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   describe('operadoresLogicos(num1, num2, num3)', function () {
+   xdescribe('operadoresLogicos(num1, num2, num3)', function () {
       it("Debe retornar 'Numero 1 es mayor y positivo' si num1 es positivo y mayor que num2 y num3", function () {
          expect(operadoresLogicos(50, 2, 15)).toBe(
             'Numero 1 es mayor y positivo'
@@ -158,7 +158,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   xdescribe('esPrimo(num)', function () {
+   describe('esPrimo(num)', function () {
       it('Debe retornar True si num es primo', function () {
          expect(esPrimo(7)).toBe(true);
          expect(esPrimo(97)).toBe(true);
@@ -174,7 +174,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   xdescribe('esVerdadero(valor)', function () {
+   describe('esVerdadero(valor)', function () {
       it('Debe retornar "Soy verdadero" si valor es True', function () {
          expect(esVerdadero(true)).toBe('Soy verdadero');
       });
@@ -183,7 +183,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   xdescribe('tieneTresDigitos(num)', function () {
+   describe('tieneTresDigitos(num)', function () {
       it('Debe retornar True si num tiene tres dígitos', function () {
          expect(tieneTresDigitos(100)).toBe(true);
          expect(tieneTresDigitos(820)).toBe(true);
@@ -195,7 +195,7 @@ describe('JAVASCRIPT II', function () {
       });
    });
 
-   xdescribe('doWhile(num)', function () {
+   describe('doWhile(num)', function () {
       it('Debe agregar 5 al número recibido un total de 8 veces y retornar el resultado', function () {
          expect(doWhile(5)).toBe(45);
          expect(doWhile(100)).toBe(140);
